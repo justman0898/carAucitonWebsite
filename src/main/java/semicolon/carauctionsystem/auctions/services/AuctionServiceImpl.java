@@ -165,10 +165,6 @@ public class AuctionServiceImpl implements AuctionService {
                     savedResponse.setVehicleHistoryUrl(vehicleHistoryUrls);
                     return savedResponse;
                 });
-
-
-
-
     }
 
     @Override

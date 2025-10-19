@@ -45,6 +45,15 @@ public class BidController {
                 .body(auctions);
     }
 
+    @GetMapping("/approved-auctions")
+    public ResponseEntity<?> viewAllApprovedAuctions(){
+        List<AuctionResponseDto> auctions = auctionService.getAllApprovedAuctions().collectList().block();
+        return  ResponseEntity.ok()
+                .contentType(MediaType.APPLICATION_JSON)
+                .body(auctions);
+
+    }
+
 
 
 
