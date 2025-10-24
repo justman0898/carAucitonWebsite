@@ -17,7 +17,6 @@ import semicolon.carauctionsystem.auctions.exceptions.AuctionNotFoundException;
 import semicolon.carauctionsystem.auctions.exceptions.CarNotFoundException;
 import semicolon.carauctionsystem.users.utils.Mapper;
 
-import java.math.BigDecimal;
 import java.util.*;
 
 @Service
